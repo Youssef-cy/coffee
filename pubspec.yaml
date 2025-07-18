@@ -30,14 +30,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  lottie: ^2.7.0
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/Screenshot 2025-07-18 214617.png"  # حط مسار صورة اللوجو هنا
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -68,8 +72,8 @@ flutter:
     - assets/download (12).jpeg
     - assets/download (13).jpeg
     - assets/download (14).jpeg
-
-
+    - assets/Screenshot 2025-07-18 214617.png
+    - assets/Coffee love.json
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 
